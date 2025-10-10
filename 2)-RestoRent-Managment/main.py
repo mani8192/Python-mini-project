@@ -38,4 +38,4 @@ for item, price in resto_menu.items():
         print('Food price :-', price)
 
 
-# not camplete
+# not complete
