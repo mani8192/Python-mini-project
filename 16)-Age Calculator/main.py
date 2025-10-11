@@ -16,7 +16,7 @@ today = datetime.date.today()
 birth_date = datetime.date(birth_year , birth_month , birth_day)
 age = today.year - birth_date.year
 
-if (today.month , today.day) < (birth_date.month , birth_date.day): age -= 1
+if (today.month , today.day) < (birth_date.month , birth_date.day): age += 1
 
 # --output -
 print(f"you are {age} year old ")
