@@ -8,6 +8,7 @@ print("❤️:- welcome to your love calculator-:🧡")
 name1 = input("Enter your name here ❤️:-")
 name2 = input("Enter your partner name 😍:-")
 
+
 love_score = random.randint(50,100)
 
 print(f"you love score is{love_score}")
@@ -23,9 +24,3 @@ elif love_score >= 60:
     
 else:
     print('☹️')
-
-
-
-
-
-
